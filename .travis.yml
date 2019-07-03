@@ -1,0 +1,9 @@
+language: csharp
+solution: FaceApiFresh.sln
+install:
+  - nuget restore FaceApiFresh.sln
+script:
+  - msbuild /p:Configuration=Release FaceApiFresh.sln
+ 
+ 
+ 
